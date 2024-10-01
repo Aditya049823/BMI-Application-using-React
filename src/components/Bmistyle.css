@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(65, 71, 71);
+}
+header{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin-top: 12px;
+    color: bisque;
+}
+
+input{
+    padding: 10px;
+    width:25%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btnClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calBtn{
+    width:10%;
+    padding: 8px;
+    background-color: blue;
+}
